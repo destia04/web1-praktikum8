@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+
+    header, footer{
+        background-color: rgb(149, 201, 165);
+        height: 15vh;
+    }
+
+    #main{
+        display: flex;
+    }
+
+    #main aside,
+    #main article {
+        height: 70vh;
+        flex: 0 0 20vw;
+    }
+
+
+    #main article{
+        flex: 1;
+        background-color: bisque;
+        text-align: center;
+    }
+
+    nav{
+        background-color: rgb(176, 233, 193);
+        width: 30%;
+        float: left;
+        height: 100vw;
+    }
+
+    #main aside{
+        background-color: rgb(132, 177, 147);
+        width: 14vw;
+    }
+
+    header, footer{
+        text-align: center;
+    }

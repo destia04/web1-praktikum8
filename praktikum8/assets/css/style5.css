@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(173, 198, 221);
+  }
+
+  .container {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  header,footer {
+    background-color: rgb(130, 167, 197);
+    padding: 25px;
+    margin: 1rem auto;
+  }
+
+  main {
+    display: flex;
+    gap: 20px;
+  }
+
+  h3 {
+    align-content: center;
+    position: relative;
+    top: 170px;
+  }
+
+  aside {
+    background-color: rgb(99, 151, 151);
+    flex: 1;
+    padding: 15px;
+    gap: 15px;
+    height: 475px;
+  }
+
+  article {
+    background-color: rgb(134, 151, 170);
+    flex: 3;
+    padding: 15px;
+    gap: 15px;
+    height: 475px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+  }
+
+  img {
+    width: 30%;
+  }

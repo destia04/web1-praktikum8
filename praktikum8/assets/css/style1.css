@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+img {
+    width: 5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: auto 0;
+}
